@@ -1,1 +1,1 @@
-Project for Javascript learning
+Project for Javascript learning!
