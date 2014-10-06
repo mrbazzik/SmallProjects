@@ -1,9 +1,7 @@
 function Clock(options) {
 
   this._template = options.template;
-  this._timer;
-
-}
+  }
 
 Clock.prototype.stop = function() {
   clearInterval(this._timer);
