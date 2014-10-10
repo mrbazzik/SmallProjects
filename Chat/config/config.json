@@ -1,6 +1,6 @@
 {
   "port": 3000,
-  "mongoose":{
+  "mongoose": {
     "uri": "mongodb://localhost/chat",
     "options": {
       "server": {
@@ -8,6 +8,15 @@
           "keepAlive": 1
         }
       }
+    }
+  },
+  "session": {
+    "secret": "KillerIsJim",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
     }
   }
 }
