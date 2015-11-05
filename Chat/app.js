@@ -6,6 +6,7 @@ var log = require('lib/log')(module);
 var mongoose = require('lib/mongoose');
 var HttpError = require('error').HttpError;
 
+
 var app = express();
 
 app.engine('ejs', require('ejs-locals'));
